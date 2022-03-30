@@ -23,7 +23,9 @@ $tipografia2: 'Roboto', sans-serif;
 }
 
 .imgr2{
-    background-image: url(/img/IMG_3014.JPG);
+    background-image: url(../img/IMG_3014.JPG);
+    background-size: cover; //para arreglar la imagen y que no sea gigante
+    background-repeat: no-repeat;
     
     padding-top: 5%;
     padding-bottom: 15%;
@@ -38,6 +40,8 @@ $tipografia2: 'Roboto', sans-serif;
 
     .reto2{
         font-family: $tipografia1;
+        width: 100vw;
+        height:100vh;
     }
 
     

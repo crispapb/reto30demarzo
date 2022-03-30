@@ -18,7 +18,9 @@
 }
 
 .imgr2 {
-  background-image: url(/img/IMG_3014.JPG);
+  background-image: url(../img/IMG_3014.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 5%;
   padding-bottom: 15%;
   padding-right: 10%;
@@ -30,4 +32,6 @@
 
 .reto2 {
   font-family: "IBM Plex Sans Arabic", sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
