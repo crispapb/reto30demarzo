@@ -2,20 +2,22 @@ $tipografia1: 'IBM Plex Sans Arabic', sans-serif;
 $tipografia2: 'Roboto', sans-serif;
 
 .reto1{
-    max-width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 
 .ejemp1{
     width: 45%;
     display: inline-block;
-   
+
+    border-style: dotted;
+    border-color: rgb(189, 255, 7);
     border: 10px;
+    
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 20px;
-    border-style: dotted;
-    border-color: rgb(189, 255, 7);
+    
     color: aliceblue;
     font-family: $tipografia2;
     background-color: rgb(139, 7, 248);
