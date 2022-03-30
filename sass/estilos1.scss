@@ -49,7 +49,7 @@ $tipografia2: 'Roboto', sans-serif;
         text-align: center;
         font-family: $tipografia2;
         padding: 10%;
-        background-color: aquamarine;
+        background-color: rgb(177, 241, 220);
     }
 
     .boton{
@@ -62,7 +62,7 @@ $tipografia2: 'Roboto', sans-serif;
 
         &:hover{ //esto es para cambiar cuando el cursor esta encima
                  //tambien puede ser visitado y activo
-                 
+
             background-color: rgb(48, 3, 48);
             border-color: aqua;
         }
