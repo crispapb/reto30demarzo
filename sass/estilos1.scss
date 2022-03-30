@@ -1,3 +1,20 @@
-.reto1{
-    background-image: url('../img/IMG_3016.jpg');
+$tipografia1: 'IBM Plex Sans Arabic', sans-serif;
+$tipografia2: 'Roboto', sans-serif;
+
+.imgr2{
+    background-image: url(/img/IMG_3014.JPG);
+    
+    padding-top: 5%;
+    padding-bottom: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+    margin-left: 12%;
+    width: 75%;
+    font-family: $tipografia1;
+
     } 
+
+    .reto2{
+        font-family: $tipografia1;
+    }
