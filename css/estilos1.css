@@ -11,7 +11,7 @@
   padding-bottom: 40px;
   margin: 20px;
   border-style: dotted;
-  border-color: #bdff07;
+  border-color: #eeff07;
   color: aliceblue;
   font-family: "Roboto", sans-serif;
   background-color: #8b07f8;
@@ -34,4 +34,24 @@
   font-family: "IBM Plex Sans Arabic", sans-serif;
   width: 100vw;
   height: 100vh;
+}
+
+.ejem3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding: 10%;
+  background-color: aquamarine;
+}
+
+.boton {
+  background-color: purple;
+  color: aliceblue;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 4px dashed #fbff00;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #300330;
+  border-color: aqua;
 }

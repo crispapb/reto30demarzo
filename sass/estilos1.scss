@@ -15,7 +15,7 @@ $tipografia2: 'Roboto', sans-serif;
     padding-bottom: 40px;
     margin: 20px;
     border-style: dotted;
-    border-color: rgb(189, 255, 7);
+    border-color: rgb(238, 255, 7);
     color: aliceblue;
     font-family: $tipografia2;
     background-color: rgb(139, 7, 248);
@@ -42,6 +42,30 @@ $tipografia2: 'Roboto', sans-serif;
         font-family: $tipografia1;
         width: 100vw;
         height:100vh;
+    }
+
+
+    .ejem3{
+        text-align: center;
+        font-family: $tipografia2;
+        padding: 10%;
+        background-color: aquamarine;
+    }
+
+    .boton{
+        background-color: purple;
+        color: aliceblue;
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: 4px dashed rgb(251, 255, 0);
+        text-decoration: none;
+
+        &:hover{ //esto es para cambiar cuando el cursor esta encima
+                 //tambien puede ser visitado y activo
+                 
+            background-color: rgb(48, 3, 48);
+            border-color: aqua;
+        }
     }
 
     
